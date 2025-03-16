@@ -29,7 +29,7 @@ enum APIRouter: URLRequestConvertible {
     private var method: HTTPMethod {
         switch self {
 //            el vend details fel post man get request w hena maktop .post ?
-        case .getMovies , .getMovieDetails, .getMovieRecommendations , .getMovieCasts , .getMovieVideos , .getMovieReviews , .searchMovies, .getMoviesGenres:
+        case .getWorkouts , .getMovieDetails, .getMovieRecommendations , .getMovieCasts , .getMovieVideos , .getMovieReviews , .searchMovies, .getMoviesGenres:
             return .get
             
         }
@@ -76,7 +76,7 @@ enum APIRouter: URLRequestConvertible {
 //            ]
 //            return parameters
             
-        case   .getMovies ,.getMovieDetails ,.getMovieRecommendations ,.getMovieReviews ,.getMovieCasts ,.getMovieVideos ,.searchMovies ,.getMoviesGenres :
+        case   .getWorkouts ,.getMovieDetails ,.getMovieRecommendations ,.getMovieReviews ,.getMovieCasts ,.getMovieVideos ,.searchMovies ,.getMoviesGenres :
             return nil
        
         }

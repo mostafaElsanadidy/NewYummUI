@@ -15,7 +15,7 @@ struct Constants {
     
     struct ProductionServer {
         static let baseURL = "http://127.0.0.1:8000"
-//        static let api_key = "18f1dd9d9a6779af535c45513bd22779"
+        static let api_key = "18f1dd9d9a6779af535c45513bd22779"
     }
     
     enum APIParameters :String{

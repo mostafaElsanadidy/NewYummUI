@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3539BC352AD46029724831C /* Pods_NewYummUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB52F0DC6CC5237555FF6D7A /* Pods_NewYummUI.framework */; };
+		ED05867B2D8781D60087174F /* workouts_api.py in Resources */ = {isa = PBXBuildFile; fileRef = ED05867A2D8781D60087174F /* workouts_api.py */; };
+		ED1A379E2D87009D00412B45 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1A379D2D87009D00412B45 /* Workout.swift */; };
 		EDEB13262D86E08D00E57616 /* NewYummUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEB13252D86E08D00E57616 /* NewYummUIApp.swift */; };
 		EDEB13282D86E08D00E57616 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEB13272D86E08D00E57616 /* ContentView.swift */; };
 		EDEB132A2D86E09400E57616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEB13292D86E09400E57616 /* Assets.xcassets */; };
@@ -19,6 +22,7 @@
 		EDEB13582D86E18600E57616 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEB13552D86E18500E57616 /* Constants.swift */; };
 		EDEB13592D86E18600E57616 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEB13562D86E18500E57616 /* APIClient.swift */; };
 		EDEB135A2D86E18600E57616 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEB13572D86E18500E57616 /* APIRouter.swift */; };
+		EDEB135C2D86F68900E57616 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EDEB135B2D86F68900E57616 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35597B6B6A0B1336675EC235 /* Pods-NewYummUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewYummUI.debug.xcconfig"; path = "Target Support Files/Pods-NewYummUI/Pods-NewYummUI.debug.xcconfig"; sourceTree = "<group>"; };
+		B1EAFE37CEB614D945D15C8B /* Pods-NewYummUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewYummUI.release.xcconfig"; path = "Target Support Files/Pods-NewYummUI/Pods-NewYummUI.release.xcconfig"; sourceTree = "<group>"; };
+		BB52F0DC6CC5237555FF6D7A /* Pods_NewYummUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewYummUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED05867A2D8781D60087174F /* workouts_api.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = workouts_api.py; sourceTree = "<group>"; };
+		ED1A379D2D87009D00412B45 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		EDEB13222D86E08D00E57616 /* NewYummUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewYummUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEB13252D86E08D00E57616 /* NewYummUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYummUIApp.swift; sourceTree = "<group>"; };
 		EDEB13272D86E08D00E57616 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +63,7 @@
 		EDEB13552D86E18500E57616 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EDEB13562D86E18500E57616 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		EDEB13572D86E18500E57616 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		EDEB135B2D86F68900E57616 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3539BC352AD46029724831C /* Pods_NewYummUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +92,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED0586792D8780710087174F /* Workouts_Api */ = {
+			isa = PBXGroup;
+			children = (
+				ED05867A2D8781D60087174F /* workouts_api.py */,
+			);
+			path = Workouts_Api;
+			sourceTree = "<group>";
+		};
+		ED1A379C2D87008100412B45 /* Workouts Section */ = {
+			isa = PBXGroup;
+			children = (
+				ED1A379D2D87009D00412B45 /* Workout.swift */,
+			);
+			path = "Workouts Section";
+			sourceTree = "<group>";
+		};
 		EDEB13192D86E08D00E57616 = {
 			isa = PBXGroup;
 			children = (
+				EDEB135B2D86F68900E57616 /* Podfile */,
 				EDEB13242D86E08D00E57616 /* NewYummUI */,
 				EDEB133A2D86E09500E57616 /* NewYummUITests */,
 				EDEB13442D86E09500E57616 /* NewYummUIUITests */,
 				EDEB13232D86E08D00E57616 /* Products */,
+				FDFBE698645ED5D66A67D750 /* Pods */,
+				F18F45A04FAC41A8673C0EC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +134,8 @@
 		EDEB13242D86E08D00E57616 /* NewYummUI */ = {
 			isa = PBXGroup;
 			children = (
+				ED0586792D8780710087174F /* Workouts_Api */,
+				ED1A379C2D87008100412B45 /* Workouts Section */,
 				EDEB13542D86E18500E57616 /* API */,
 				EDEB13252D86E08D00E57616 /* NewYummUIApp.swift */,
 				EDEB13272D86E08D00E57616 /* ContentView.swift */,
@@ -150,6 +182,23 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		F18F45A04FAC41A8673C0EC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB52F0DC6CC5237555FF6D7A /* Pods_NewYummUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDFBE698645ED5D66A67D750 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35597B6B6A0B1336675EC235 /* Pods-NewYummUI.debug.xcconfig */,
+				B1EAFE37CEB614D945D15C8B /* Pods-NewYummUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDEB134B2D86E09500E57616 /* Build configuration list for PBXNativeTarget "NewYummUI" */;
 			buildPhases = (
+				1D2BEC892C6368817D8FEB28 /* [CP] Check Pods Manifest.lock */,
 				EDEB131E2D86E08D00E57616 /* Sources */,
 				EDEB131F2D86E08D00E57616 /* Frameworks */,
 				EDEB13202D86E08D00E57616 /* Resources */,
+				72DF81CA70CA4A2154A86D61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +305,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDEB135C2D86F68900E57616 /* Podfile in Resources */,
+				ED05867B2D8781D60087174F /* workouts_api.py in Resources */,
 				EDEB132D2D86E09400E57616 /* Preview Assets.xcassets in Resources */,
 				EDEB132A2D86E09400E57616 /* Assets.xcassets in Resources */,
 			);
@@ -275,6 +328,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D2BEC892C6368817D8FEB28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewYummUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72DF81CA70CA4A2154A86D61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewYummUI/Pods-NewYummUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewYummUI/Pods-NewYummUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewYummUI/Pods-NewYummUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDEB131E2D86E08D00E57616 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -283,6 +378,7 @@
 				EDEB135A2D86E18600E57616 /* APIRouter.swift in Sources */,
 				EDEB13582D86E18600E57616 /* Constants.swift in Sources */,
 				EDEB132F2D86E09400E57616 /* Persistence.swift in Sources */,
+				ED1A379E2D87009D00412B45 /* Workout.swift in Sources */,
 				EDEB13282D86E08D00E57616 /* ContentView.swift in Sources */,
 				EDEB13322D86E09400E57616 /* NewYummUI.xcdatamodeld in Sources */,
 				EDEB13262D86E08D00E57616 /* NewYummUIApp.swift in Sources */,
@@ -439,6 +535,7 @@
 		};
 		EDEB134C2D86E09500E57616 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35597B6B6A0B1336675EC235 /* Pods-NewYummUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +564,7 @@
 		};
 		EDEB134D2D86E09500E57616 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1EAFE37CEB614D945D15C8B /* Pods-NewYummUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

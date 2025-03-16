@@ -39,6 +39,8 @@ struct ContentView: View {
                 }
             }
             Text("Select an item")
+        }.onAppear(){
+            APIClient.getWorkouts(completionHandler: {print($0 ?? "mostafa")}, completionFaliure: {_ in})
         }
     }
 
