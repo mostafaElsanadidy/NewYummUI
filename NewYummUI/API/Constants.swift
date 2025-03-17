@@ -14,7 +14,7 @@ struct Constants {
     static let randomQueue =  DispatchQueue(label: "randomQueue", qos: .utility)
     
     struct ProductionServer {
-        static let baseURL = "http://127.0.0.1:8000"
+        static let baseURL = "https://glorious-fishstick-g7j6q6jgvw9cvvwp-8000.app.github.dev"
         static let api_key = "18f1dd9d9a6779af535c45513bd22779"
     }
     

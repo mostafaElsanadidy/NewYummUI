@@ -111,6 +111,7 @@
 		EDEB13192D86E08D00E57616 = {
 			isa = PBXGroup;
 			children = (
+				ED0586792D8780710087174F /* Workouts_Api */,
 				EDEB135B2D86F68900E57616 /* Podfile */,
 				EDEB13242D86E08D00E57616 /* NewYummUI */,
 				EDEB133A2D86E09500E57616 /* NewYummUITests */,
@@ -134,7 +135,6 @@
 		EDEB13242D86E08D00E57616 /* NewYummUI */ = {
 			isa = PBXGroup;
 			children = (
-				ED0586792D8780710087174F /* Workouts_Api */,
 				ED1A379C2D87008100412B45 /* Workouts Section */,
 				EDEB13542D86E18500E57616 /* API */,
 				EDEB13252D86E08D00E57616 /* NewYummUIApp.swift */,
